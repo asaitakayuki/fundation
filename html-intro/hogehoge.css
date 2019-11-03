@@ -1,0 +1,23 @@
+ /* specific weight
+
+#food {
+    background: green;
+}
+
+p {
+    background: red;
+} */
+
+.hotdog p{
+    background: yellow;
+}
+
+.hotdog p.mustard {
+    background: skyblue;
+}
+
+
+h1 {
+    background: orange;
+    font-size: 24px;
+}
