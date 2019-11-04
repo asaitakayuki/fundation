@@ -200,13 +200,13 @@ let expected;
 //// Write more tests
 
 // I console log number with usging array.
-function displayNumberWithArray(num1){
-    let numbersArray = []
+// function displayNumberWithArray(num1){
+//     let numbersArray = []
 
-    for(let number of num1){
-        numbersArray.push(number);
-    }
-    return numbersArray;
-}
+//     for(let number of num1){
+//         numbersArray.push(number);
+//     }
+//     return numbersArray;
+// }
 
-console.log(displayNumberWithArray([1,2,3,4]))
+// console.log(displayNumberWithArray([1,2,3,4]))
