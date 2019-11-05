@@ -1,0 +1,11 @@
+body {
+    background-color: powderblue;
+}
+
+.hotdog p{
+    background: brown;
+}
+
+.hotdog p.mastard{
+    background: yellow;
+}
