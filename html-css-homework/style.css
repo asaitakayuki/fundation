@@ -8,4 +8,13 @@ h3 {
     font-size: 12px;
 }
 
+p {
+    display: block;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 <i class="em em-panda_face" aria-role="presentation" aria-label="PANDA FACE"></i>
