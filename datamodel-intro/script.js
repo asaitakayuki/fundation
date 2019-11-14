@@ -35,21 +35,45 @@
 //1
 //to do nothing???
 //2
-function makeMovie(title,director,year,person){
-    return {
-        title: title,
-        director: director,
-        year: year,
-        person: person
-    }
-}
-//TEST
-// console.log(makeMovie("Jurassic Park", "Steven Spielberg", "1994","Kiefer Sutherland"));
+//function makeMovie(title,director,year,person){
+//    return {
+//        title: title,
+//        director: director,
+//        year: year,
+//        person: person
+//    }
+//}
+////TEST
+//// console.log(makeMovie("Jurassic Park", "Steven Spielberg", "1994","Kiefer Sutherland"));
+//
+////3.Make five more movie objects using your factory function and store them in an array called movies
+////make five object.
+//const movie1= makeMovie("Jurassic Park", "Steven Spielberg", "1994","Kiefer Sutherland");
+////init array
+//let movies =[movie1];
+//
+//console.log(movies[0]);
 
-//3.Make five more movie objects using your factory function and store them in an array called movies
-//make five object.
-const movie1= makeMovie("Jurassic Park", "Steven Spielberg", "1994","Kiefer Sutherland");
-//init array
-let movies =[movie1];
+let i = 1; //initilize
 
-console.log(movies[0]);
+//while(i <= 100){
+//    console.log("number is: " + i);
+//    i++;
+//}
+
+//for(let i =1;i <= 10;i++){
+//    console.log("number is: " + i);
+//}
+
+
+// use the.lnegth propertly correctly
+//const cars =["Volvo","Toyota","BMW","Honda"]
+//
+////for(let index= 0;index < cars.length;index++){
+//for(let index= 0;index <= cars.length - 1;index++){
+//    console.log(cars[index]);
+//    
+//}
+
+
+
