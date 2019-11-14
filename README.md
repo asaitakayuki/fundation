@@ -13,6 +13,9 @@ Test Driven Development
 ## datamodel-practice
 I pracice to manipulate,create,modify arrays and objects and in data modeling...
 
+## foundations-pokemon
+I learn consept of API and how to use it.....
+It is called pokemon project..
 
 ## html-css-homework
 I learn HTML/CSS project.
