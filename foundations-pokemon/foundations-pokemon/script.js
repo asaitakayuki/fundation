@@ -13,8 +13,6 @@ function test(actual, expected) {
   }
 }
 
-
-
 /**
  *  1.
  *  Print allPokemon to your Chrome console to see what it looks like. (This is already done for you.)
@@ -52,5 +50,4 @@ function getNames(){
     
     return allPokemonName;
 }
-
-console.log(getNames()); //should be print "Bulbasaur"??
+console.log(test(getNames(), getNamesResult));
