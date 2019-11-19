@@ -60,22 +60,22 @@ function test(actual, expected) {
   * 3.In the above object,create a method called getNumbers.
   */
 
-  const myMathObject = {
-    getNumbers: function(...arrays){
-      let numObj=[];
-
-      for(let element of arrays ){
-        if(typeof element === "number"){
-          numObj.push(element);
-        }
-      }
-      
-      return numObj;
-    }
-  }
-
-
-//TEST
-//test(myMathObject.getNumbers(1, 2, 3, 4), [1, 2, 3, 4]);
+//  const myMathObject = {
+//    getNumbers: function(...arrays){
+//      let numObj=[];
+//
+//      for(let element of arrays ){
+//        if(typeof element === "number"){
+//          numObj.push(element);
+//        }
+//      }
+//      
+//      return numObj;
+//    }
+//  }
+//
+//
+////TEST
+////test(myMathObject.getNumbers(1, 2, 3, 4), [1, 2, 3, 4]);
 //console.log(myMathObject.getNumbers(1, 2, 3, 4));
 //test(myMathObject.getNumbers("foo", 3, "4", "hi", 1), [3, 1]);
