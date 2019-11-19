@@ -1,6 +1,7 @@
 'use strict'
 // Please don't delete the 'use strict' line above
 
+<<<<<<< HEAD
 //create a ramdp, cp;pr strong.
 
 function changeBackgroundColor(){
@@ -21,3 +22,24 @@ const target = document.getElementById('button-change-color');
 target.addEventListener('click',changeBackgroundColor);
 
 //target.addEventListener('click',changeBackgroundColor()); It doesn't work property...why?
+=======
+function changeColor(){
+    let colors =['red','blue','black']
+    let colorsIndexNumber =0;
+
+    colorsIndexNumber = Math.random(0,3) * 10;
+    console.log(colorsIndexNumber);
+    
+    let bodyElement = document.getElementsByTagName('body');
+    bodyElement[0].style.backgroundColor = colors[0];
+    //bodyElement.style.backgroundColor = 'red';
+    //bodyElement[0].style.backgroundColor = 'red';
+    }
+
+//function getRandomArbitrary(min, max) {
+//    return Math.random() * (max - min) + min;
+//  }
+
+changeColor();
+//getRandomArbitrary(9,255) //
+>>>>>>> 20191119 backup
