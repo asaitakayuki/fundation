@@ -24,17 +24,35 @@ console.log(mydata.prizes[0].year);
 let yearElement = mydata.prizes[0].year;
 
 // create h2 tag
-let elementh4 = document.createElement("h4");
+let tagH4 = document.createElement("h4");
 
+// add classname(year) to tagH4
+tagH4.className = "year";
+
+//console.log(tagH4)
 // describe text year.
 let yearText = document.createTextNode(yearElement);
 
 //append year of text
-elementh4.appendChild(yearText);
+tagH4.appendChild(yearText);
 
 // attent year to html file.
-document.getElementsByTagName("h1")[0].appendChild(elementh4);
+document.getElementsByTagName("h1")[0].appendChild(tagH4);
 
-//console.log(yearElement);
+// get category data from JSON.
+let categoryElement = mydata.prizes[0].category;
 
+//// create text for html.
+let categoryText = document.createTextNode(categoryElement);
 
+let categorytagH4 = document.createElement("h4");
+
+categorytagH4.className="category";
+
+categorytagH4.appendChild(categoryText);
+
+// append category to next year tag.
+//document.getElementsByClassName("category")[0].appendChild(categroytagH4);
+console.log(document.getElementsByClassName("year")[0].appendChild(categorytagH4));
+
+//
