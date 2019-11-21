@@ -43,13 +43,17 @@ document.getElementsByTagName("body")[0].appendChild(element1);
              * get nobel prize values.
              */
             let firstNameText = document.createTextNode(obj1.laureates[j].firstname);
-            let surNameText = document.createTextNode(obj1.laureates[j].surtname);
+            let surNameText = document.createTextNode(obj1.laureates[j].surname);
             let motivationText = document.createTextNode(obj1.laureates[j].motivation);
        
+            let text = firstNameText + surNameText + motivationText;
+            
             /**
              * ceate tag and append nobel prize info to html file.
              */
             let tagH5 = document.createElement("h5")
+            tagH5.innerText = text;
+            
             tagH5.appendChild(motivationText);
             document.getElementsByTagName("body")[0].appendChild(tagH5);
         }
