@@ -20,3 +20,8 @@ It is called pokemon project..
 ## html-css-homework
 I learn HTML/CSS project.
 I must hand in 3rd sataruday.
+
+
+## documents
+what I learned,I describe it my own words.
+It is called my note.

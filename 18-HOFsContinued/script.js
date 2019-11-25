@@ -292,31 +292,31 @@ function test(actual, expected) {
  */
 
  // Your code here
-function getQuestions(array){
-  const filteredArray =
-  array
-  .filter(function(element){
-    if(element[0] === element[0].toUpperCase()){
-      if(element[element.length -1] === "?"){
-        return element;
-        console.log("Uppsercase and question mark.");
-      }
-    };
-  })
-    return filteredArray;
-}
-
-const arrayOfStrings3 = [
-  "Hi, there.",
-  "What in the world?",
-  "My name is JavaScript",
-  "Do you want to know a secret?",
-];
-
-test(getQuestions(arrayOfStrings3), [
-  "What in the world?",
-  "Do you want to know a secret?",
-]);
-test(getQuestions(arrayOfStrings3.slice(2)), [
-  "Do you want to know a secret?",
-]);
+//function getQuestions(array){
+//  const filteredArray =
+//  array
+//  .filter(function(element){
+//    if(element[0] === element[0].toUpperCase()){
+//      if(element[element.length -1] === "?"){
+//        return element;
+//        console.log("Uppsercase and question mark.");
+//      }
+//    };
+//  })
+//    return filteredArray;
+//}
+//
+//const arrayOfStrings3 = [
+//  "Hi, there.",
+//  "What in the world?",
+//  "My name is JavaScript",
+//  "Do you want to know a secret?",
+//];
+//
+//test(getQuestions(arrayOfStrings3), [
+//  "What in the world?",
+//  "Do you want to know a secret?",
+//]);
+//test(getQuestions(arrayOfStrings3.slice(2)), [
+//  "Do you want to know a secret?",
+//]);
