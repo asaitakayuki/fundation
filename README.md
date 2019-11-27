@@ -1,8 +1,15 @@
 # description
+I want to learn computer sicense and improve my English skill.
+I decide to take foundation on codeChrsaily.
+I describe what I learned,I do excesirse.
 
+# term
+20191025-20191125
 
 # table of content
 
+## 1-Welcome
+algorithem,what is the program??
 
 ## code-stype
 I learn how to nameing function,variables,
