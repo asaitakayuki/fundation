@@ -28,7 +28,8 @@ It is called pokemon project..
 I learn HTML/CSS project.
 I must hand in 3rd sataruday.
 
+## review
+After last class,I review text and Basic excesise.
 
-## documents
-what I learned,I describe it my own words.
-It is called my note.
+### 1
+Fisrt-time.
