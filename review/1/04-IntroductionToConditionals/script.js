@@ -146,5 +146,3 @@
 //console.log(isEven(4)); // should print true
 //console.log(isEven(7)); // => false
 //console.log(isEven("Hello")); // => should print "input a number!"
-
-
