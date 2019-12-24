@@ -2,3 +2,12 @@
 div {
  font-size: 16px;   
 }
+
+/* ID selector */
+.content {
+    background-color: blue;
+}
+/* class selector */
+#content {
+    background-color: green;
+}
