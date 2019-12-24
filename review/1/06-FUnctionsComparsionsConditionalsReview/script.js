@@ -97,24 +97,35 @@ let actual;
  * 3.Declare a function getSimpleNumberName.
  */
 
-// function getSimpleNumberName(number){
-//    const oneToTenObject = {
-//        one: 1,
-//        two: 2,
-//        three: 3,
-//        four: 4,
-//        five: 5,
-//        six: 6,
-//        seven: 7,
-//        eight: 8,
-//        nine: 9,
-//        ten: 10
-//    }
-//    for(const [key,value] of Object.entries(oneToTenObject)){
-//        if(number == `${value}`){
-//            console.log(`${key}`);
-//        }        
-//    }
-// }
-//
-// getSimpleNumberName(10);
+function getSimpleNumberName(number){
+   const oneToTenObject = {
+       one: 1,
+       two: 2,
+       three: 3,
+       four: 4,
+       five: 5,
+       six: 6,
+       seven: 7,
+       eight: 8,
+       nine: 9,
+       ten: 10
+   }
+   for(const [key,value] of Object.entries(oneToTenObject)){
+       if(number == `${value}`){
+           return `${key}`;
+       }        
+   }
+}
+
+//TEST case
+actual = getSimpleNumberName(10);
+expected = "ten"
+
+//TEST code
+if (actual === expected) {
+  console.log("Yay! Test PASSED.");
+} else {
+  console.error("Test FAILED. Keep trying!");
+  console.log("    actual: ", actual);
+  console.log("  expected: ", expected);
+}
