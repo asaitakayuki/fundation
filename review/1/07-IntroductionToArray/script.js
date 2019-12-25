@@ -6,13 +6,13 @@ let expected;
 let actual;
 // When dealing with objects (like arrays), a simple comparison won't work. We'll need to use a built-in function called JSON.stringify to compare the objects.
 // More about that in a future lesson.
-if (JSON.stringify(actual) === JSON.stringify(expected)) {
-  console.log("Yay! Test PASSED.");
-} else {
-  console.error("Test FAILED. Keep trying!");
-  console.log("    actual: ", actual);
-  console.log("  expected: ", expected);
-}
+//if (JSON.stringify(actual) === JSON.stringify(expected)) {
+//  console.log("Yay! Test PASSED.");
+//} else {
+//  console.error("Test FAILED. Keep trying!");
+//  console.log("    actual: ", actual);
+//  console.log("  expected: ", expected);
+//}
 
 //function numberOfPeople(array){
 //    return array.length;
@@ -34,14 +34,14 @@ if (JSON.stringify(actual) === JSON.stringify(expected)) {
  * Declare an array called students and fill it with five classmates sitting around you. Invoke numberOfPeople using the array of students as the input!
  */
 
-let students=["Bob","Kimiko","Stephon","Atila","Yan"]
-
- function numberOfPeople(students){
-    students.push("Jobs");
-    students.push("Bill")
-    students.push("TimCock")
-    return students.length;    
-}
+//let students=["Bob","Kimiko","Stephon","Atila","Yan"]
+//
+// function numberOfPeople(students){
+//    students.push("Jobs");
+//    students.push("Bill")
+//    students.push("TimCock")
+//    return students.length;    
+//}
 //
 // if (actual === expected) {
 //  console.log("Yay! Test PASSED.");
@@ -74,19 +74,54 @@ let students=["Bob","Kimiko","Stephon","Atila","Yan"]
  */
 
 
- function returnLast(array){
-     return array.pop();
- }
+// function returnLast(array){
+//     return array.pop();
+// }
+//
+// //TEST
+//actual = returnLast(students);
+//expected = "Yan";
+//
+//
+//if (actual === expected) {
+//  console.log("Yay! Test PASSED.");
+//} else {
+//  console.error("Test FAILED. Keep trying!");
+//  console.log("    actual: ", actual);
+//  console.log("  expected: ", expected);
+//}
 
- //TEST
-actual = returnLast(students);
-expected = "Yan";
+/**
+ * 5.Instead of using the built-in .push method
+ */
 
-
-if (actual === expected) {
-  console.log("Yay! Test PASSED.");
-} else {
-  console.error("Test FAILED. Keep trying!");
-  console.log("    actual: ", actual);
-  console.log("  expected: ", expected);
-}
+//let array=[1,2,3,4]
+//
+//function push(array,element){
+//  array[array.length] = element;
+//  return array.length;
+//}
+//
+//actual = push(array,5);
+//expected = 5; 
+//
+//if (actual === expected) {
+//  console.log("Yay! Test PASSED.");
+//} else {
+//  console.error("Test FAILED. Keep trying!");
+//  console.log("    actual: ", actual);
+//  console.log("  expected: ", expected);
+//}
+//
+//// Test that the function modifies the given array correctly.
+//actual = array;
+//expected = [1,2,3,4,5];
+//
+//// test
+//if(JSON.stringify(actual) === JSON.stringify(expected)){
+//  console.log("Yay! Test PASSED.");
+//} else {
+//  console.error("Test FAILED. Keep trying!");
+//  console.log("    actual: ", actual);
+//  console.log("  expected: ", expected);
+//}
