@@ -1,6 +1,14 @@
 'use strict'
 // Please don't delete the 'use strict' line above
 
+
+//TSET
+const animalArray =["dog","cat","snake","sheep"]
+
+animalArray.unshift("penguin","monkey"); //should be ["penguin","monkey".....]
+
+console.log(animalArray);
+
 //declare expetected actual
 let expected;
 let actual;
@@ -125,3 +133,4 @@ let actual;
 //  console.log("    actual: ", actual);
 //  console.log("  expected: ", expected);
 //}
+

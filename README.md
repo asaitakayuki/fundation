@@ -1,6 +1,6 @@
 # description
 I want to learn computer sicense and improve my English skill.
-I decide to take foundation on codeChrsaily.
+I decide to take foundation in codeChrsaily.
 I describe what I learned,I do excesirse.
 
 # term
@@ -26,10 +26,9 @@ It is called pokemon project..
 
 ## html-css-homework
 I learn HTML/CSS project.
-I must hand in 3rd sataruday.
 
 ## review
-After last class,I review text and Basic excesise.
+After last class,I have reviewed lecture and do Basic excesise.
 
 ### 1
-Fisrt-time.
+I reviewd firt-time.
