@@ -45,7 +45,9 @@
 
 const x =[[1,2,3],[4,5,6]];
 const y =x.slice(1);
+const z =x.slice(0,1);
 y[0] = "pink";
 
 console.log(x[1]);// [4,5,6]
 console.log(y[0]);// pink??
+console.log(z);// pink??
