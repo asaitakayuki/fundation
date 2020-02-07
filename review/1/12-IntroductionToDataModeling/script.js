@@ -52,59 +52,80 @@
 
  //1.
 
-// const movies = [
-//     {
-//         title: "Death & Rebirth",
-//         releaseDate: 19970315,
-//         Director: "Hideaki Anno"
-//         lengthOfFileInMinutes: 180
-//     },
-//     {
-//         title: "Death & Rebirth",
-//         releaseDate: 19970619,
-//         Director: "Hideaki Anno"
-//         lengthOfFileInMinutes: 85
-//     }     
-// ]
-//
-// //2.Write a factory function makeMovie.
-// function makeMovie(title,releaseDate,sales,lengthOfFileInMinutes){
-//     return (
-//        {
-//            title: title,
-//            releaseDate: releaseDate,
-//            sales: sales,
-//            lengthOfFileInMinutes: lengthOfFileInMinutes
-//        }
-//     )
-// }
-//
-// //3.make more five object and store them in an array called movies
-////movies.push(makeMovie("Biohazard",1985,1000000,360));
-////movies.push(makeMovie("twenty four",2001,123456,360));
-////console.log(movies);
-////console.log(makeMovie("mononokehime",20181021,1000000,180));
-//
-//////4.Declare a function displayMovie.
-////function displayMovie(array){
-////        console.log(array);
-////}
-////
-//////TEST
-////displayMovie(movies);
-//
-//
-///**
-// * 5.
-// */
-//
-//function averageLength(array){
-//    return array.length;
-//}
-//
-//
+ const movies = [
+     {
+        title: "Death & Rebirth",
+        releaseDate: 19970315,
+        Director: "Hideaki Anno",
+        lengthOfFileInMinutes: 180,
+        rateing: 6.3
+     },
+     {
+        title: "Death & Rebirth",
+        releaseDate: 19970619,
+        Director: "Hideaki Anno",
+        lengthOfFileInMinutes: 85,
+        rateing: 2
+     }     
+ ]
+
+ //2.Write a factory function makeMovie.
+ function makeMovie(title,releaseDate,sales,lengthOfFileInMinutes){
+     return (
+        {
+            title: title,
+            releaseDate: releaseDate,
+            sales: sales,
+            lengthOfFileInMinutes: lengthOfFileInMinutes
+        }
+     )
+ }
+
+ //3.make more five object and store them in an array called movies
+//movies.push(makeMovie("Biohazard",1985,1000000,360));
+//movies.push(makeMovie("twenty four",2001,123456,360));
+
+//4.Declare a function displayMovie.
+function displayMovie(array){
+        console.log(array);
+}
+
+////TEST
+//displayMovie(movies);
+
+
+/**
+ * 5.
+ */
+
+function averageLength(array){
+    let averageLengthOfmovies=0;
+
+    for(let i=0;i < array.length;i++){
+        averageLengthOfmovies += array[i].lengthOfFileInMinutes;
+    }
+
+    return averageLengthOfmovies/array.length;
+}
+
 //console.log(averageLength(movies)) //should be 1??
 
+/**
+ * 6.
+ */
+
+ function averageRating(array){
+    let averageOfRateing=0;
+
+    for(let element of array){
+        console.log(element);
+        averageOfRateing += element.rateing;
+    }
+
+    return averageOfRateing/array.length;
+ }
+
+ console.log(averageRating(movies))
 //function test(actual, expected) {
 //  if (JSON.stringify(actual) === JSON.stringify(expected)) {
 //    console.log("Yay! Test PASSED.");
@@ -140,3 +161,12 @@
 //console.log(test(countWords("hello hello"), { hello: 2 }));
 //console.log(test(countWords("hello Hello"), { hello: 1, Hello: 1 }));
 //console.log(test(countWords(""), {}));
+
+let animals =['🐔', '🐷', '🐑', '🐇'];
+let names = ['Gertrude', 'Henry', 'Melvin', 'Billy Bob'];
+
+for(let animal of animals){
+    let nameIdx = Math.floor(Math.random() * names.length);
+
+    console.log(`${names[nameIdx]} the ${animal}`)
+}
