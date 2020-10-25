@@ -1,34 +1,62 @@
 # description
 I want to learn computer sicense and improve my English skill.
 I decide to take foundation in codeChrsaily.
-I describe what I learned,I do excesirse.
+
+# refernece
+If you would like to know the details,refer to the following site.
+[Fundation](https://www.codechrysalis.io/foundations)
 
 # term
 20191025-20191125
 
 # table of content
+## 01_Warmup
+I set up my develooment enviroment and introduce myself to classmate. 
 
-## 1-Welcome
-algorithem,what is the program??
+## 02_FunctionAndComparison
 
-## code-stype
-I learn how to nameing function,variables,
+## 03_HTMLCSS
+I learned basic HTML/CSS and develop my introduction web site.
 
-## tdd
-Test Driven Development
+## 04_ImpostorSyndrome_Conditional
 
-## datamodel-practice
-I pracice to manipulate,create,modify arrays and objects and in data modeling...
+## 05_CodeStyle_TDD
+I learn how to write a code such as indent,variable name.
+And I also learn TDD.
 
-## foundations-pokemon
-I learn consept of API and how to use it.....
-It is called pokemon project..
+## 06_Conditional_Debugging
+I learn conditional using if statement.
+If you encoutner the error,how to deal with the problem.
+What is the deubgging?how to use it?
 
-## html-css-homework
-I learn HTML/CSS project.
+## 07_Arrays_HowToApprochProblem
 
-## review
-After last class,I have reviewed lecture and do Basic excesise.
+## 08_ForOfLoop
+I learn for loop.
 
-### 1
-I reviewd firt-time.
+## 09_Scope_Object
+I learn kind of scopes and range of scope.
+
+## 10_PassingbyRrefferenceAndValue_ForInLoop
+I learn the differnece between refenrce and value.
+I learn how to use For loop using object.
+
+## 11_FunctionAsAValue_WHileLoopAndForLoop
+I learn function as a value and three things that do function.
+Diffrence WhileLoop and Forloop
+
+## 12_DataModeling
+Create,mamipulate, data from nested object and arrays.
+
+## 13_Clousures_PokenmonProject
+
+## 14_Method_DOM
+
+## 15_JacascriptLibraries
+Donwload libralies and impliment it into your code.
+
+##16_CSSAndJS
+Create DOM nodes with desired CSS attribute using Javascript.
+
+## 17_HOFs
+Describe what a High-order-function and why is it importnat?
